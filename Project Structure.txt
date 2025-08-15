@@ -1,0 +1,16 @@
+dual-indicator-strategy/
+│
+├── data/                      # (Optional) store downloaded CSVs here
+│
+├── src/
+│   ├── __init__.py
+│   ├── strategy.py             # Core strategy logic (RSI + OBV)
+│   ├── utils.py                 # Helper functions (data download, preprocessing)
+│   └── backtest.py              # Backtesting loop
+│
+├── notebooks/
+│   └── indicator_experiments.ipynb  # For trying new indicator combos
+│
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+└── main.py                     # Main entry point to run strategy
